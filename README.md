@@ -54,7 +54,7 @@ MediTrack is a desktop application designed to efficiently manage patient record
 
 3. Run the application.
    ```bash
-   python Base.py
+   python App.py
    ```
 
 ---
