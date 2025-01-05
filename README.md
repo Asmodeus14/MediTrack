@@ -1,4 +1,4 @@
-# README: Installation and Usage Guide for MediTrack
+#Installation and Usage Guide for MediTrack
 
 ---
 
