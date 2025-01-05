@@ -7,7 +7,7 @@ build_exe_options = {
         "tkinter", "sqlite3", "pandas", "os", "time", "fpdf", "datetime",
         "PyPDF2", "reportlab.pdfgen", "reportlab.lib.pagesizes", "io", "threading", "shutil"
     ],
-    "include_files": ["Base.pdf", "Logo.png", "README.md", "LICENSE.txt","Logo.icns"],
+    "include_files": ["Base.pdf", "Logo.png", "README.md", "LICENSE.txt","Logo.icns","requirements.txt"],
 }
 
 # Determine base for GUI applications
