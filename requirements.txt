@@ -1,0 +1,6 @@
+tkinter;python_version<"3.10"  # Only include if using Python < 3.10, as tkinter is built-in
+sqlite3;python_version<"3.10"  # Only include if using Python < 3.10, as sqlite3 is built-in
+pandas==<latest_version>  # Replace <latest_version> with the most recent version at the time of use
+fpdf==<latest_version>    # Replace <latest_version> with the most recent version at the time of use
+PyPDF2==<latest_version>  # Replace <latest_version> with the most recent version at the time of use
+reportlab==<latest_version> # Replace <latest_version> with the most recent version at the time of use
