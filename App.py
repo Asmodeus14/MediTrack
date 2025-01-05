@@ -383,14 +383,14 @@ def main():
     frame_patient_list = ttk.LabelFrame(root, text="Patient List")
     frame_patient_list.pack(fill="both", expand=True, padx=10, pady=5)
     
-    tree_patients = ttk.Treeview(frame_patient_list, columns=("ID", "Name", "Age", "Gender", "Contact","Date","Adress"), show="headings")
+    tree_patients = ttk.Treeview(frame_patient_list, columns=("ID", "Name", "Age", "Gender", "Contact","Date","Address"), show="headings")
     tree_patients.heading("ID", text="ID",anchor="center")
     tree_patients.heading("Name", text="Name",anchor="center")
     tree_patients.heading("Age", text="Age",anchor="center")
     tree_patients.heading("Gender", text="Gender",anchor="center")
     tree_patients.heading("Contact", text="Contact",anchor="center")
     tree_patients.heading("Date", text="Date",anchor="center")
-    tree_patients.heading("Adress", text="Address",anchor="center")
+    tree_patients.heading("Address", text="Address",anchor="center")
     
     
     tree_patients.column("ID",anchor="center")
