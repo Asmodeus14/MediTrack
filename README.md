@@ -23,7 +23,7 @@ MediTrack is a desktop application designed to efficiently manage patient record
 - Required Libraries: Listed in `requirements.txt`
 
 ### For macOS:
-- OS: macOS High Sierra (10.13) or later
+- OS: macOS Bigsur or later
 - Python 3.8 or later
 - Required Libraries: Listed in `requirements.txt`
 
