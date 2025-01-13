@@ -79,7 +79,7 @@ If you want to create your own executable using **cx_Freeze**, follow these step
 ---
 
 ## **Directory Structure**
-- **Base.py**: Main application script.
+- **App.py**: Main application script.
 - **README.md**: This installation guide.
 - **LICENSE.txt**: Licensing information.
 - **Logo.png**: Application logo.
