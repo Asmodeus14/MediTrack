@@ -330,8 +330,12 @@ def main():
     
     root = tk.Tk()
     
-    img=PhotoImage(file=r'Logo.png')
-    root.iconphoto(True,img)
+    img_path = os.path.join(os.getcwd(), 'Logo.png')  # Assuming it's in the current working directory
+    try:
+        img = PhotoImage(file=img_path)
+        root.iconphoto(True, img)
+    except tk.TclError:
+        pass
     root.title("Patient Information and Record Management App")
     root.state("zoomed")
     
