@@ -23,7 +23,7 @@ MediTrack is a desktop application designed to efficiently manage patient record
 - Required Libraries: Listed in `requirements.txt`
 
 ### For macOS:
-- OS: macOS High Sierra (10.13) or later
+- OS: macOS Bigsur or later
 - Python 3.8 or later
 - Required Libraries: Listed in `requirements.txt`
 
@@ -79,7 +79,7 @@ If you want to create your own executable using **cx_Freeze**, follow these step
 ---
 
 ## **Directory Structure**
-- **Base.py**: Main application script.
+- **App.py**: Main application script.
 - **README.md**: This installation guide.
 - **LICENSE.txt**: Licensing information.
 - **Logo.png**: Application logo.
